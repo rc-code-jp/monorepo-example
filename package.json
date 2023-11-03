@@ -1,0 +1,28 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "description": "Typescript monorepo example",
+  "scripts": {
+    "prepare": "husky install",
+    "work:f": "yarn workspace frontend"
+  },
+  "author": "rc-code-jp",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": "20.9.0",
+    "yarn": "4.0.1"
+  },
+  "volta": {
+    "node": "20.9.0",
+    "yarn": "4.0.1"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2"
+  }
+}
