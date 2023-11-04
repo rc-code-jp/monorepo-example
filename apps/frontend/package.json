@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "volta": {
+    "extends": "../../package.json"
+  },
   "dependencies": {
     "eslint-config-preset": "workspace:*",
     "next": "14.0.1",
@@ -22,6 +25,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
     "prettier": "^3.0.3",
+    "sass": "^1.69.5",
     "typescript": "^5"
   }
 }

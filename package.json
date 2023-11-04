@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Typescript monorepo example",
   "scripts": {
-    "prepare": "husky install",
+    "postinstall": "husky install",
     "work:f": "yarn workspace frontend"
   },
   "author": "rc-code-jp",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "husky": "^8.0.3",
-    "lint-staged": "^15.0.2"
+    "lint-staged": "^15.0.2",
+    "pinst": "^3.0.0"
   }
 }
