@@ -1,7 +1,12 @@
 {
   "extends": ["preset", "next/core-web-vitals"],
-  "rules": {
-    "react-refresh/only-export-components": "off"
+  "settings": {
+    "next": {
+      "rootDir": "apps/frontend"
+    }
   },
-  "ignorePatterns": []
+  "rules": {
+    "react-refresh/only-export-components": "off",
+    "no-html-link-for-pages": "off"
+  }
 }
