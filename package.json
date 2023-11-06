@@ -4,7 +4,8 @@
   "description": "Typescript monorepo example",
   "scripts": {
     "postinstall": "husky install",
-    "work:f": "yarn workspace frontend"
+    "work:f": "yarn workspace frontend",
+    "work:a": "yarn workspace admin"
   },
   "author": "rc-code-jp",
   "license": "UNLICENSED",
