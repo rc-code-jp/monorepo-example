@@ -24,6 +24,7 @@
     "@vitejs/plugin-react-swc": "^3.3.2",
     "eslint": "^8.45.0",
     "eslint-config-preset": "workspace:*",
+    "tsconfig": "workspace:*",
     "typescript": "^5",
     "vite": "^4.4.5"
   }
