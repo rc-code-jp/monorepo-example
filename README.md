@@ -11,7 +11,6 @@ yarn v4
 ### packages
 
 - [tsconfig](./packages/tsconfig/)
-- [eslint-config-preset](./packages/eslint-config-preset/)
 
 ## Commands
 
