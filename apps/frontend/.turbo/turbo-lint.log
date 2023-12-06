@@ -1,0 +1,5 @@
+
+> @monorepo/frontend@0.1.0 lint /Users/ryoca/Work/monorepo-example/apps/frontend
+> pnpm biome lint ./src --apply
+
+Fixed 5 file(s) in 1712µs
