@@ -1,0 +1,10 @@
+{
+	"extends": ["./node_modules/@monorepo/biome/base.json"],
+	"linter": {
+		"rules": {
+			"style": {
+				"noNonNullAssertion": "off"
+			}
+		}
+	}
+}
