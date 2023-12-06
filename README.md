@@ -10,7 +10,7 @@ yarn v4
 
 ### packages
 
-- [tsconfig](./packages/tsconfig/)
+- [typescript](./packages/typescript/)
 
 ## Commands
 

@@ -1,27 +1,29 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "not-work next lint"
-  },
-  "volta": {
-    "extends": "../../package.json"
-  },
-  "dependencies": {
-    "next": "14.0.1",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-    "@monorepo/tsconfig": "workspace:*",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "sass": "^1.69.5",
-    "typescript": "^5"
-  }
+	"name": "@monorepo/frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"format": "pnpm biome format --write ./src",
+		"lint": "pnpm biome lint ./src --apply"
+	},
+	"volta": {
+		"extends": "../../package.json"
+	},
+	"dependencies": {
+		"next": "14.0.1",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"devDependencies": {
+		"@monorepo/typescript": "workspace:*",
+		"@monorepo/biome": "workspace:*",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"sass": "^1.69.5",
+		"typescript": "^5"
+	}
 }
