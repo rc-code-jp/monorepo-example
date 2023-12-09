@@ -6,10 +6,12 @@ yarn v4
 
 ### apps
 
-- [frontend](./apps/frontend/)
+- [admin](./apps/admin/)
+- [web](./apps/web/)
 
 ### packages
 
+- [biome](./packages/biome/)
 - [typescript](./packages/typescript/)
 
 ## Commands
